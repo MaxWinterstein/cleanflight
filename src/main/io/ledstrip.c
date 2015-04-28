@@ -615,7 +615,7 @@ void applyLedModeLayer(void)
                 if (!ARMING_FLAG(ARMED)) {
                     setLedHsv(ledIndex, &hsv_green);
                 } else {
-                    setLedHsv(ledIndex, &hsv_blue);
+                    setLedHsv(ledIndex, &hsv_red);
                 }
             }
             continue;
